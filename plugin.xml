@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="core.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="core.Perspective"
+            id="Mycam.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="View.Welcom"
+            id="View.Welcom"
+            name="Welcom">
+      </view>
+      <view
+            class="View.Welcome"
+            id="View.Welcome"
+            name="Prague">
+      </view>
+      <view
+            class="View.Welcome"
+            id="View.Welcome"
+            name="Welcome">
+      </view>
+      <view
+            class="View.Welcome"
+            id="View.Welcome"
+            name="Welcome">
+      </view>
+      <view
+            class="View.Login"
+            id="View.Login"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.RootMenu"
+            id="View.RootMenu"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.YPmanager"
+            id="View.YPmanager"
+            name="影片管理页">
+      </view>
+      <view
+            class="View.YYmanager"
+            id="View.YYmanager"
+            name="影院管理页">
+      </view>
+      <view
+            class="View.PlanManager"
+            id="View.PlanManager"
+            name="上映计划管理页">
+      </view>
+      <view
+            class="View.ShoppManager"
+            id="View.ShoppManager"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.ShopManager"
+            id="View.ShopManager"
+            name="选座购票">
+      </view>
+      <view
+            class="Dialog.Shop_1"
+            id="Dialog.Shop_1"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.shopp1"
+            id="View.shopp1"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.Shop2"
+            id="View.Shop2"
+            name="New ViewPart">
+      </view>
+      <view
+            class="Utils.CountDetail"
+            icon="icons/alt_launcher.ico"
+            id="Utils.CountDetail"
+            name="账户信息">
+      </view>
+      <view
+            class="View.Welcome"
+            id="View.Welcome"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.Test"
+            id="View.Test"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.ShangchuanTest"
+            id="View.ShangchuanTest"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.CostomMenu"
+            id="View.CostomMenu"
+            name="顾客菜单栏">
+      </view>
+      <view
+            class="View.RootMemus"
+            id="View.RootMemus"
+            name="管理员菜单">
+      </view>
+      <view
+            class="View.SelectForDate"
+            id="View.SelectForDate"
+            name="查询功能">
+      </view>
+      <view
+            class="View.Countdetails"
+            id="View.Countdetails"
+            name="New ViewPart">
+      </view>
+      <view
+            class="View.Myshoppinglist"
+            id="View.Myshoppinglist"
+            name="我的购物车">
+      </view>
+   </extension>
+
+</plugin>
